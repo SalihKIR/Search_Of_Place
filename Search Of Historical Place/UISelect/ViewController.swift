@@ -23,7 +23,7 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
         let pc3 = placeModel(pcname: "Germany", artname: "Almanya People", datename: UIImage(named: "Koln")!)
         let pc4 = placeModel(pcname: "İtalya", artname: "İtaly People", datename: UIImage(named: "Leaning_Tower_of_Pisa")!)
         let pc5 = placeModel(pcname: "Russian", artname: "Russian People", datename: UIImage(named: "Moskova")!)
-        let pc6 = placeModel(pcname: "Israel", artname: "German People", datename: UIImage(named: "Telaviv")!)
+        let pc6 = placeModel(pcname: "Israel", artname: "Israel People", datename: UIImage(named: "Telaviv")!)
         let placeMode = [pc,pc1,pc2,pc3,pc4,pc5,pc6]
         placesTableView = placeMode
     }
