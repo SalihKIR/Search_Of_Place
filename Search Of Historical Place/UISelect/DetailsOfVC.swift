@@ -11,7 +11,7 @@ class DetailsOfVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         data()
-        
+        ////////
     }
     
     func data() {
