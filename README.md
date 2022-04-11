@@ -8,4 +8,10 @@
 ![Simulator Screen Shot - iPhone 12 - 2022-04-09 at 22 12 12](https://user-images.githubusercontent.com/77065124/162588455-5f891370-10de-4b27-b7ef-905df6ab07bb.png)
 
 
+![Simulator Screen Shot - iPhone 12 - 2022-04-11 at 18 58 16](https://user-images.githubusercontent.com/77065124/162782039-2504fa4a-c039-4784-9339-634efcb5e0ad.png)
+
+
+![Simulator Screen Shot - iPhone 12 - 2022-04-09 at 22 12 31](https://user-images.githubusercontent.com/77065124/162782075-b515b88a-002e-448c-b7cc-c04f632f6e4f.png)
+
+
 
