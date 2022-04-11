@@ -24,9 +24,9 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
         let pc4 = placeModel(pcname: "İtalya", artname: "İtaly People", datename: UIImage(named: "Leaning_Tower_of_Pisa")!)
         let pc5 = placeModel(pcname: "Russian", artname: "Russian People", datename: UIImage(named: "Moskova")!)
         let pc6 = placeModel(pcname: "Israel", artname: "Israel People", datename: UIImage(named: "Telaviv")!)
-        let placeMode = [pc,pc1,pc2,pc3,pc4,pc5,pc6]
-        placesTableView = placeMode
+        placesTableView = [pc,pc1,pc2,pc3,pc4,pc5,pc6]
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //return placeBuffer.count
         return placesTableView.count
@@ -40,7 +40,7 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
             }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let second = DetailsOfVC.instantiate(storyboard: .details)
-        second.placesTableVieww = placesTableView
+        second.placesTableVieww = placesTableView[indexPath.row]
         self.navigationController?.pushViewController(second, animated: true)
     }
     @IBAction func buttonDeneme(_ sender: Any) {

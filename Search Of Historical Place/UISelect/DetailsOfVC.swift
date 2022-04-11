@@ -6,7 +6,8 @@ class DetailsOfVC: UIViewController {
     @IBOutlet weak var placeImageView: UIImageView!
     @IBOutlet weak var placeName: UILabel!
     
-    var placesTableVieww = [placeModel]()
+    var placesTableVieww: placeModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         data()
@@ -14,10 +15,8 @@ class DetailsOfVC: UIViewController {
     }
     
     func data() {
-        for data in placesTableVieww {
-            nameLabel.text = data.pictureName
-            placeName.text = data.artName
-            placeImageView.image = data.dateimage
+            nameLabel.text = placesTableVieww.pictureName
+            placeName.text = placesTableVieww.artName
+            placeImageView.image = placesTableVieww.dateimage
         }
-    }
 }
